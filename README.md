@@ -1,4 +1,5 @@
-# Introduction
+# Introduction
+
 
 There are several types of test types in software engineering and one of the most common one is load testing.
 
@@ -46,7 +47,7 @@ __init__.py
 
 You can also download the .gitignore file from [this repository](https://github.com/github/gitignore/blob/master/Python.gitignore).
 
-Let's start by creating the virtual environement for our Flask application. 
+Let's start by creating the virtual environment for our Flask application. 
 
 ```
 python3 -m venv /path/to/new/virtual/environment
@@ -203,7 +204,7 @@ Start by installing Locust:
 pip install locustio
 ```
 
-Now in the proejct root directory, create the locustfile.py file that will describe our testing scenarios:
+Now in the project root directory, create the locustfile.py file that will describe our testing scenarios:
 
 ```
 from locust import HttpLocust, TaskSet, task
@@ -242,13 +243,11 @@ The web interface of Locust is available by default at ``` http://localhost:8089
 
 Say our API should support a number of 10000 user. We can start a test by giving this value to Locust, using the web interface, as well as the the hatch rate which is the number of users spawned by second.
 
-After clicking on "Start spawning", you can see different live statistics about your tasks like the number of requests, fails, and other statistis about the response time.
+After clicking on "Start spawning", you can see different live statistics about your tasks like the number of requests, fails, and other statistics about the response time.
 
 ![Locust Statistics](images/locust_stats.png "Locust Statistics")
 
 Using the Charts view, we can determine some fact-based conclusions. For instance, if we don't accept a response time greater than 450ms, we know that our application cannot handle more than 117 request per second and that the max number of simultaneous users should be less than 350.
-
-
 
 # Conclusion
 
