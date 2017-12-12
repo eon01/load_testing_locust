@@ -3,11 +3,13 @@
 
 There are several types of test types in software engineering and one of the most common one is load testing.
 
-The purpose of this test is checking if a software can handle what it was designed to handle and identifying the blottleneck and any performance degradation cause. This is performed by putting demand on a application under normal and peak load conditions. Load testing could help you determine some metrics like the Mean Time Between Failure (MTBF) and Mean Time To Failure (MTTF).
+The purpose of this test is checking if a software can handle what it was designed to handle and identifying the blottleneck and any performance degradation. 
+
+This is performed by putting demand on a application under normal and peak load conditions. Load testing could help you determine some metrics like the Mean Time Between Failure (MTBF) and Mean Time To Failure (MTTF).
 
 According to [Microsoft guide Performance Testing Guidance for Web Applications](https://msdn.microsoft.com/en-us/library/bb924357.aspx), a load test enables you to measure response times, throughput rates, and resource-utilization levels, and to identify your application’s breaking point, assuming that the breaking point occurs below the peak load condition. 
 
-In general, it helps you to:
+As a conclusion, load testing helps you to:
 
 - Determine the throughput required to support the anticipated peak production load.
 - Determine the adequacy of a hardware environment.
@@ -18,7 +20,7 @@ In general, it helps you to:
 - Help to determine how many users the application can handle before performance is compromised.
 - Help to determine how much load the hardware can handle before resource utilization limits are exceeded. 
 
-There are many load testing tools like Gatling, JMeter, Locust.
+Gatling, JMeter, Locust are some of the load testing tools.
 
 In this practice lab, we are going to create a simple REST API and write some load test scenarios.
 
