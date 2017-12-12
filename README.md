@@ -249,7 +249,8 @@ After clicking on "Start spawning", you can see different live statistics about 
 
 Using the Charts view, we can determine some fact-based conclusions. For instance, if we don't accept a response time greater than 450ms, we know that our application cannot handle more than 117 request per second and that the max number of simultaneous users should be less than 350.
 
-# Conclusion
+
+# Conclusion
 
 In this practice lab, we created a RESTful API and tested its performance using Locust. Using the results from our tests, we determined how our API can behave with a certain number of users and requests.
 Load testing is an important practice since it prevents organizations from downtimes and failures due to errors like the timeout or memory overflows. Load testing gives meaningful results when tests are done against a similar environment to production (configurations, code, physical resources like disks and memory ..etc).
