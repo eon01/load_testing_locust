@@ -1,7 +1,7 @@
 # Introduction
 
 
-There are several types of test types in software engineering and one of the most common one is load testing.
+There are several types of test types in software engineering and load testing is one of the most common tests.
 
 The purpose of this test is checking if a software can handle what it was designed to handle and identifying the blottleneck and any performance degradation. 
 
